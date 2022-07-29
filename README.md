@@ -1,6 +1,8 @@
 # aws-glue-iceberg-blog
 
-[Apache Iceberg Connector for AWS Glue를 이용하여 데이터레이크 CRUD 하기](https://aws.amazon.com/ko/blogs/tech/transactional-datalake-using-apache-iceberg-connector-for-aws-glue/) 포스팅 내용 실습 프로젝트
+- [Apache Iceberg Connector for AWS Glue를 이용하여 데이터레이크 CRUD 하기](https://aws.amazon.com/ko/blogs/tech/transactional-datalake-using-apache-iceberg-connector-for-aws-glue/) 포스팅 내용 실습 프로젝트
+- Postgresql 대신 MySQL을 사용함
+- sample-data 디렉터리에 MySQL에서 S3로 덤프한 parquet 파일이 있음 -> S3에 데이터를 업로드해서 Glue Job 테스트 할 때 사용하면 됨
 
 ## MySQL 테이블
 
